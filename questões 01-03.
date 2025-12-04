@@ -1,0 +1,18 @@
+ 1. O que é um vetor em c++?Explique com suas palavras.
+é uma variavel que guarda várias coisas do mesmo tipo, tudo junto, usando um nome só.
+tipo uma “caixinha” com várias posições dentro 
+
+2. Qual a diferença entre declarar um vetor com valor fixo e inicializá-lo com valores específicos?
+declarar com tamanho fixo:
+int v[5];
+cria um vetor com 5 posicoes, mas não coloca nenhum valor dentro (lixo de memória).
+inicializar com valores:
+int v[5] = {1,2,3,4,5};
+aqui já cria e já coloca os valores dentro.
+
+3. Explique o que significa índice e qual o intervalo válido para um vetor int notas[10];
+índice é a posição dentro do vetor.
+em c++, o índice sempre começa no 0.
+então para int not[10];
+os índices válidos são:
+0 até 9
